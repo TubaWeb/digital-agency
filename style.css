@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    display: flex;
+    background-color: #D5D2D2;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    font-size: 25px;
+}
+.header-logo{
+    display: flex;
+    color: aqua;
+    align-items: center;
+}
+.logo-img{
+    width: 250px;
+}
+.header-item{
+    display: flex;  
+    list-style: none;
+    gap: 25px;   
+}
+.item:hover{
+    color: tomato;
+    cursor: pointer;
+}
